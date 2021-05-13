@@ -4,11 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- CSS IMPORT -->
     <link rel="stylesheet" href="assets/style/style.css">
     
+    <!-- FONTS IMPORT -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Texturina:wght@100;400;700&display=swap" rel="stylesheet">
+
     <title>Bertoldo's Magic Ball</title>
 </head>
 <body>
+
+    <main class="game">
+        <section class="game__presentation">
+            <h1>Bertoldo's Magic 8-Ball</h1>
+
+            <p>Look closely at the ball, think about a question, and when your heart is ready ...</p>
+
+            <p>Press the button to find out the answer or receive advice !!!</p>
+        </section>
+    
+        <section class="game__main">
+            <div class="game__main-ball">
+                <button class="game__main-button" id="ask">Ok give me the answer</button>
+            </div>
+        </section>
+        <section id="answer" class="game__main-answer">
+           
+        </section>
+    </main>
+
 
     <script src="assets/script/script.js"></script>
 </body>
